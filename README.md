@@ -196,6 +196,7 @@ Selected from the public stack visible across my current projects.
 
 - I teach Computer Architecture at Pontificia Universidad Javeriana.
 - I care about making security concepts concrete through labs, walkthroughs, and student-friendly tooling.
+- I publish public learning material and reusable notes in [ctf-writeups](https://github.com/Panacota96/ctf-writeups).
 - I am especially interested in projects that improve phishing defense, blue-team readiness, and practical cybersecurity learning.
 
 ## Connect
