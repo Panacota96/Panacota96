@@ -52,6 +52,12 @@
 - Reproducible CTF, pentest, and reporting workflows
 - Blue-team-minded projects around phishing analysis, Linux operations, and network security
 
+## Currently Exploring
+
+- AI-assisted reporting flows for cyber labs, writeups, and evidence capture
+- More measurable phishing-awareness training for engineering students
+- Repeatable blue-team and CTF workflows across Docker-based lab environments
+
 ## Languages and Education
 
 ### Spoken Languages
@@ -143,29 +149,48 @@ Selected from the public stack visible across my current projects.
 
 ## Featured Work
 
-### Security Education
-
-**[master-Project-Phishing](https://github.com/Panacota96/master-Project-Phishing)**  
-A serverless phishing-awareness platform for engineering students with quiz flows, guided email analysis, and instructor analytics.  
-Proof signal: it shows how I turn security education into something hands-on, measurable, and deployable.
-
-### Security Tooling
-
-**[Guild-Scroll](https://github.com/Panacota96/Guild-Scroll)**  
-A terminal flight recorder for authorized pentests and CTFs with structured JSONL capture, MITRE ATT&CK mapping, exports, and a TUI or web preview.  
-Proof signal: it reflects practitioner-grade workflow tooling and disciplined security reporting.
-
-### CTF / Reporting Workflow
-
-**[Helm-Path](https://github.com/Panacota96/Helm-Path)**  
-A local-first CTF flight recorder and writeup generator with Dockerized logging, hashed manifests, an append-only audit chain, and a graph UI.  
-Proof signal: it demonstrates reproducible evidence capture plus AI-assisted reporting.
-
-### Applied Research / Lab
-
-**[ai-cyber-lab](https://github.com/Panacota96/ai-cyber-lab)**  
-A desktop-first cyber lab workspace for CTF, lab, and pentest documentation with multiple export paths, timelines, and persistent storage.  
-Proof signal: it reinforces my interest in combining practical security work with clear research outputs.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Panacota96/master-Project-Phishing">EnGarde</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Security%20Education-0F4C81?style=flat-square" alt="Security Education" />
+        <img src="https://img.shields.io/badge/AWS%20Serverless-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Serverless" />
+      </p>
+      <p>Serverless phishing-awareness platform for engineering students with quiz flows, guided email analysis, and instructor analytics.</p>
+      <p><strong>Why it matters:</strong> turns phishing defense into something hands-on, measurable, and deployable.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Panacota96/Guild-Scroll">Guild-Scroll</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Security%20Tooling-143D59?style=flat-square" alt="Security Tooling" />
+        <img src="https://img.shields.io/badge/MITRE%20ATT%26CK-7A1CAC?style=flat-square" alt="MITRE ATT&CK" />
+      </p>
+      <p>Terminal flight recorder for authorized pentests and CTFs with structured JSONL capture, ATT&amp;CK mapping, exports, and a TUI or web preview.</p>
+      <p><strong>Why it matters:</strong> shows practitioner-grade workflow tooling and disciplined security reporting.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Panacota96/Helm-Path">Helm-Path</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/CTF%20Workflow-1B6CA8?style=flat-square" alt="CTF Workflow" />
+        <img src="https://img.shields.io/badge/Ollama%20Reports-0B3D91?style=flat-square" alt="Ollama Reports" />
+      </p>
+      <p>Local-first CTF flight recorder and writeup generator with Dockerized logging, hashed manifests, an append-only audit chain, and a graph UI.</p>
+      <p><strong>Why it matters:</strong> proves a strong focus on reproducible evidence capture and AI-assisted reporting.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Panacota96/ai-cyber-lab">AI Cyber Lab</a></h3>
+      <p>
+        <img src="https://img.shields.io/badge/Applied%20Research-1A936F?style=flat-square" alt="Applied Research" />
+        <img src="https://img.shields.io/badge/SQLite%20%2B%20Exports-0E7490?style=flat-square" alt="SQLite and Exports" />
+      </p>
+      <p>Desktop-first cyber lab workspace for CTF, lab, and pentest documentation with multiple export paths, timelines, and persistent storage.</p>
+      <p><strong>Why it matters:</strong> connects practical lab work with clearer reporting and research outputs.</p>
+    </td>
+  </tr>
+</table>
 
 ## Teaching and Community
 
