@@ -1,0 +1,105 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">David Santiago Gonzalez Rico profile header</title>
+  <desc id="desc">A dark cybersecurity-themed banner with the name David Santiago Gonzalez Rico and the subtitle Cybersecurity engineer and educator.</desc>
+  <defs>
+    <linearGradient id="bg" x1="44" y1="32" x2="1128" y2="304" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.6" stop-color="#0C1D31"/>
+      <stop offset="1" stop-color="#122841"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 64) rotate(141.422) scale(371.851 290.545)">
+      <stop stop-color="#3BA0FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3BA0FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="0" y="0" width="1200" height="320" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <style>
+      .label {
+        font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        letter-spacing: 0.02em;
+      }
+      .title {
+        font-size: 44px;
+        font-weight: 700;
+        fill: #F6FAFF;
+      }
+      .subtitle {
+        font-size: 19px;
+        font-weight: 500;
+        fill: #B8CAE0;
+      }
+      .pill {
+        font-size: 14px;
+        font-weight: 600;
+        fill: #D9E7F7;
+      }
+      .mono {
+        font-family: Consolas, "Liberation Mono", Menlo, monospace;
+      }
+    </style>
+  </defs>
+
+  <rect x="8" y="8" width="1184" height="304" rx="22" fill="url(#bg)"/>
+  <rect x="8.5" y="8.5" width="1183" height="303" rx="21.5" stroke="#2A4363"/>
+  <rect x="8" y="8" width="1184" height="304" rx="22" fill="url(#glow)"/>
+
+  <g opacity="0.16">
+    <path d="M60 66H1140" stroke="#8CB5DD"/>
+    <path d="M60 114H1140" stroke="#8CB5DD"/>
+    <path d="M60 162H1140" stroke="#8CB5DD"/>
+    <path d="M60 210H1140" stroke="#8CB5DD"/>
+    <path d="M60 258H1140" stroke="#8CB5DD"/>
+    <path d="M140 40V280" stroke="#8CB5DD"/>
+    <path d="M260 40V280" stroke="#8CB5DD"/>
+    <path d="M380 40V280" stroke="#8CB5DD"/>
+    <path d="M500 40V280" stroke="#8CB5DD"/>
+    <path d="M620 40V280" stroke="#8CB5DD"/>
+    <path d="M740 40V280" stroke="#8CB5DD"/>
+    <path d="M860 40V280" stroke="#8CB5DD"/>
+    <path d="M980 40V280" stroke="#8CB5DD"/>
+    <path d="M1100 40V280" stroke="#8CB5DD"/>
+  </g>
+
+  <g filter="url(#soft)" opacity="0.18">
+    <circle cx="938" cy="96" r="52" fill="#6AB8FF"/>
+    <circle cx="1040" cy="244" r="40" fill="#59E0C5"/>
+  </g>
+
+  <g opacity="0.85">
+    <rect x="78" y="58" width="134" height="28" rx="14" fill="#0F2136" stroke="#2D4767"/>
+    <text x="103" y="76" class="label mono pill" fill="#81D1FF">&gt; whoami</text>
+
+    <text x="78" y="136" class="label title">David Santiago Gonzalez Rico</text>
+    <text x="80" y="172" class="label subtitle">Cybersecurity engineer focused on SecOps, labs, and practical security education.</text>
+
+    <g>
+      <rect x="80" y="214" width="132" height="34" rx="17" fill="#0C2137" stroke="#2E5177"/>
+      <text x="112" y="236" class="label pill">SecOps</text>
+    </g>
+    <g>
+      <rect x="224" y="214" width="176" height="34" rx="17" fill="#0C2137" stroke="#2E5177"/>
+      <text x="258" y="236" class="label pill">Network Security</text>
+    </g>
+    <g>
+      <rect x="412" y="214" width="186" height="34" rx="17" fill="#0C2137" stroke="#2E5177"/>
+      <text x="446" y="236" class="label pill">Security Education</text>
+    </g>
+  </g>
+
+  <g transform="translate(856 54)">
+    <path d="M124 0L228 44V116C228 176 186 230 124 250C62 230 20 176 20 116V44L124 0Z" fill="#0D2135" stroke="#5A7EA4" stroke-width="2"/>
+    <path d="M124 34L190 62V111C190 152 163 190 124 206C85 190 58 152 58 111V62L124 34Z" fill="#112A44" stroke="#6FAAE0" stroke-width="2"/>
+    <path d="M124 72V132" stroke="#9AD7FF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M94 102H154" stroke="#9AD7FF" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="40" cy="36" r="6" fill="#59E0C5"/>
+    <circle cx="234" cy="182" r="6" fill="#59E0C5"/>
+    <path d="M40 36H6V80" stroke="#59E0C5" stroke-width="2"/>
+    <path d="M234 182H262V146" stroke="#59E0C5" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(846 222)">
+    <rect x="0" y="0" width="266" height="42" rx="12" fill="#091726" stroke="#264363"/>
+    <text x="20" y="26" class="label mono" font-size="16" fill="#8FD5FF">$ build --secure --teach</text>
+  </g>
+</svg>
