@@ -1,5 +1,5 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">David Santiago Gonzalez Rico · Rakvor DFIR tools</title>
+  <title id="title">David Santiago González Rico · Rakvor DFIR tools</title>
   <desc id="desc">Green header: name, roles (Digital Forensics Engineer, eDiscovery Analyst, Cybersecurity Analyst) and a hash-chained audit log motif for the Rakvor DFIR suite.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
@@ -32,7 +32,7 @@
     <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
       <text x="64" y="74" fill="#7EE2B8" font-size="15" font-weight="600" letter-spacing="5">R A K V O R  ·  D F I R</text>
       <text x="64" y="132" fill="#E6FFF4" font-size="44" font-weight="700">David Santiago</text>
-      <text x="64" y="180" fill="#E6FFF4" font-size="44" font-weight="700">Gonzalez Rico</text>
+      <text x="64" y="180" fill="#E6FFF4" font-size="44" font-weight="700">González Rico</text>
       <rect x="64" y="200" width="96" height="4" rx="2" fill="url(#accent)"/>
       <text x="64" y="236" fill="#A7D9C3" font-size="19" font-weight="500">Digital Forensics Engineer · eDiscovery Analyst · Cybersecurity Analyst</text>
       <text x="64" y="268" fill="#6FAE93" font-size="15">Forensics · Pentesting · SOC for SMEs in Colombia and France</text>

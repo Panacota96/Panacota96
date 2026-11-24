@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="David Santiago Gonzalez Rico - Rakvor DFIR tools" width="100%" />
+  <img src="./assets/profile-header.svg" alt="David Santiago González Rico - Rakvor DFIR tools" width="100%" />
 </p>
 
-<h1 align="center">David Santiago Gonzalez Rico</h1>
+<h1 align="center">David Santiago González Rico</h1>
 
 <p align="center"><strong>Digital forensics · Pentesting · SOC — for SMEs in Colombia and France</strong></p>
 
@@ -159,7 +159,7 @@ Through Rakvor I work with small and medium-sized businesses in **Colombia** and
 ## Toolkit
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,py,js,ts,bash,sqlite,aws,docker,kubernetes,terraform,githubactions,linux,ubuntu,debian,kali,windows,wireshark&perline=9" alt="Rust, Python, JavaScript, TypeScript, Bash, SQLite, AWS, Docker, Kubernetes, Terraform, GitHub Actions, Linux, Ubuntu, Debian, Kali, Windows, Wireshark" />
+  <img src="https://skillicons.dev/icons?i=rust,py,c,asm,js,ts,bash,sqlite,aws,docker,kubernetes,terraform,githubactions,linux,ubuntu,debian,kali,windows,wireshark&perline=9" alt="Rust, Python, C, Assembly, JavaScript, TypeScript, Bash, SQLite, AWS, Docker, Kubernetes, Terraform, GitHub Actions, Linux, Ubuntu, Debian, Kali, Windows, Wireshark" />
 </p>
 
 ### Digital forensics and mobile
@@ -208,9 +208,13 @@ Through Rakvor I work with small and medium-sized businesses in **Colombia** and
 
 ### Programming languages
 
+I build tools in **Rust** and **Python**, and also work in **C** and **Assembly**.
+
 <p>
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
+  <img src="https://img.shields.io/badge/Assembly-6E4C13?style=for-the-badge" alt="Assembly" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/SQL%20%2F%20SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL and SQLite" />
