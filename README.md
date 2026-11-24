@@ -1,217 +1,90 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="David Santiago Gonzalez Rico - Cybersecurity engineer and educator" width="100%" />
+  <img src="./assets/profile-header.svg" alt="David Santiago Gonzalez Rico - Rakvor DFIR tools" width="100%" />
 </p>
 
 <h1 align="center">David Santiago Gonzalez Rico</h1>
 
-<p align="center"><strong>Cybersecurity Engineer | Security Education | Blue-Team Tooling</strong></p>
+<p align="center"><strong>Digital forensics · Pentesting · SOC — for SMEs in Colombia and France</strong></p>
 
 <p align="center">
-  Cybersecurity engineer focused on security operations, Linux administration, network defense, and practical security education.
-</p>
-
-<p align="center">
-  I build hands-on security projects that connect phishing-awareness training, cyber-lab workflows, and reproducible security reporting.
+  I build <strong>Rakvor</strong>, a suite of digital-forensics tools written in Rust for examiners who have to
+  defend their findings in court. Every tool reports <em>signals, not verdicts</em>, and keeps a tamper-evident record of
+  everything it did.
 </p>
 
 <p align="center">
-  Open to collaboration on phishing-awareness training, lab platforms, and blue-team workflow tooling.
+  <a href="https://github.com/Panacota96/rv-hub/releases/latest"><img src="https://img.shields.io/github/v/release/Panacota96/rv-hub?label=RV%20Hub&style=for-the-badge&color=6B00FF" alt="RV Hub latest release" /></a>
+  <a href="https://www.linkedin.com/in/ing-dsantiagog/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/ing-dsantiagog/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+## The Rakvor DFIR suite
 
-<p align="center">
-  <a href="https://github.com/Panacota96/master-Project-Phishing">
-    <img src="https://img.shields.io/badge/EnGarde-Phishing%20Platform-0F4C81?style=flat-square&logo=github&logoColor=white" alt="EnGarde phishing platform" />
-  </a>
-  <a href="https://github.com/Panacota96/ai-cyber-lab">
-    <img src="https://img.shields.io/badge/AI%20Cyber%20Lab-Applied%20Research-1A936F?style=flat-square&logo=github&logoColor=white" alt="AI Cyber Lab" />
-  </a>
-  <a href="https://github.com/Panacota96/Helm-Path">
-    <img src="https://img.shields.io/badge/Helm--Path-CTF%20Workflow-1B6CA8?style=flat-square&logo=github&logoColor=white" alt="Helm-Path CTF workflow" />
-  </a>
-</p>
+Start with **[RV Hub](https://github.com/Panacota96/rv-hub)**: the one window an examiner opens first. It finds the
+installed tools, checks their signatures, launches them on a case folder, shows the case at a glance and verifies the
+whole case. The other tools stay separate, separately signed programs.
 
-## At a Glance
+| Tool | What it does | Latest |
+| --- | --- | --- |
+| [**RV Hub**](https://github.com/Panacota96/rv-hub) | Front door: finds and verifies the tools, launches them on a case, verifies the whole case. | [![](https://img.shields.io/github/v/release/Panacota96/rv-hub?label=)](https://github.com/Panacota96/rv-hub/releases/latest) |
+| [**RV Triage**](https://github.com/Panacota96/rv-triage) | Live Windows triage from a USB stick: volatile data, event logs, hives, prefetch, browsers, tasks, into a hashed, logged package. | [![](https://img.shields.io/github/v/release/Panacota96/rv-triage?label=)](https://github.com/Panacota96/rv-triage/releases/latest) |
+| [**RV HashInv**](https://github.com/Panacota96/rv-hashinv) | Evidence inventory: hashes every file, detects its real type, flags anomalies, registers the evidence of a case. | [![](https://img.shields.io/github/v/release/Panacota96/rv-hashinv?label=)](https://github.com/Panacota96/rv-hashinv/releases/latest) |
+| [**RV PDFAuth**](https://github.com/Panacota96/rv-pdfauth) | Signals of modification in PDFs: every saved revision extracted and compared visually, plus metadata, fonts, signatures and hidden content. | [![](https://img.shields.io/github/v/release/Panacota96/rv-pdfauth?label=)](https://github.com/Panacota96/rv-pdfauth/releases/latest) |
+| [**RV ImgAuth**](https://github.com/Panacota96/rv-imgauth) | Signals of modification in photos and screenshots (JPEG, HEIC, PNG, WebP): structure, metadata, double compression, ELA/noise maps, copy-move. | [![](https://img.shields.io/github/v/release/Panacota96/rv-imgauth?label=)](https://github.com/Panacota96/rv-imgauth/releases/latest) |
+| [**RV AvAuth**](https://github.com/Panacota96/rv-avauth) | Audio and video authenticity signals: container structure (MP4/MOV, Ogg/Opus, WAV, MP3) and encoder traces. | [![](https://img.shields.io/github/v/release/Panacota96/rv-avauth?label=)](https://github.com/Panacota96/rv-avauth/releases/latest) |
+| [**RV MailAuth**](https://github.com/Panacota96/rv-mailauth) | Email authenticity signals in .eml, .msg and .mbox: DKIM/ARC re-verified offline, Received path, dates, attachments, BEC signals. | [![](https://img.shields.io/github/v/release/Panacota96/rv-mailauth?label=)](https://github.com/Panacota96/rv-mailauth/releases/latest) |
+| [**RV RSMF**](https://github.com/Panacota96/rv-rsmf) | Converts WhatsApp, Telegram, Teams and mobile-tool CSV chat exports to validated RSMF 2.0 for Relativity, each message traced to its source line. | [![](https://img.shields.io/github/v/release/Panacota96/rv-rsmf?label=)](https://github.com/Panacota96/rv-rsmf/releases/latest) |
+| [**RV CertCheck**](https://github.com/Panacota96/rv-certcheck) | Validates X.509 chains, revocation, RFC 3161 tokens and trust lists found in evidence; also creates Rakvor's own PKI and lab certificates. | [![](https://img.shields.io/github/v/release/Panacota96/rv-certcheck?label=)](https://github.com/Panacota96/rv-certcheck/releases/latest) |
+| [**RV Timeline**](https://github.com/Panacota96/rv-timeline) | One cited super-timeline of a case, built from the verified runs of the other tools, with cross-source time signals. | [![](https://img.shields.io/github/v/release/Panacota96/rv-timeline?label=)](https://github.com/Panacota96/rv-timeline/releases/latest) |
+| [**RV Report**](https://github.com/Panacota96/rv-report) | Assembles one expert report (dictamen pericial / rapport d'expertise) from the verified runs, quoting each tool verbatim; never writes a conclusion. | [![](https://img.shields.io/github/v/release/Panacota96/rv-report?label=)](https://github.com/Panacota96/rv-report/releases/latest) |
 
-- Cybersecurity master's student at ESME Paris
-- SecOps-informed security background
-- Instructor in Computer Architecture at Pontificia Universidad Javeriana
-- Builder of phishing-awareness platforms, cyber-lab tooling, and CTF evidence workflows
+```mermaid
+flowchart LR
+    T["RV Triage<br/>collect"] --> H["RV HashInv<br/>register evidence"]
+    H --> A["PDFAuth · ImgAuth · AvAuth<br/>MailAuth · RSMF · CertCheck"]
+    A --> TL["RV Timeline"]
+    A --> R["RV Report"]
+    TL --> R
+    HUB(["RV Hub<br/>launch · dashboard · verify case"]) -.-> H & A & TL & R
+```
 
-## Featured Repositories
+## How they are built
 
-If you are visiting this profile for the first time, start with these three projects.
+- **Rust**, Windows 10/11, a command line and a desktop app for every tool.
+- **Signed releases**: Authenticode signatures chaining to the Rakvor root, `SHA256SUMS` and build provenance on every release; RV Hub checks the chain before it launches a tool.
+- **Tamper-evident audit logs**: every action is written to a hash-chained log that anyone can re-verify (`verify-log`), including the outputs it recorded.
+- **RFC 3161 timestamps** on the audit logs, with the TSA signature checked on verification.
+- **Signals, not verdicts**: no tool ever says "authentic" or "forged"; every finding states what it shows *and what it does not prove*.
+- **Three languages**: interface and reports in English, Spanish and French, with Colombian and French report structures.
+- **Independent QA harness**: the signed release executables are re-tested from outside the repositories, per tool and across the whole case workflow.
+- **Source-available, non-commercial**: the code is published for audit under the PolyForm Noncommercial 1.0.0 licence.
 
-### 1. [master-Project-Phishing](https://github.com/Panacota96/master-Project-Phishing)
+### rakvor-tool-forge
 
-Serverless phishing-awareness platform for engineering students with guided email analysis, quiz flows, and instructor analytics.
+[**rakvor-tool-forge**](https://github.com/Panacota96/rakvor-tool-forge) is the skill that turns "we need a tool that
+does X" into a Rakvor tool that builds, passes its tests and meets the forensic contract from the first commit: a
+phased procedure, reference templates (Rust and Python) and a contract validator that every tool must pass.
 
-### 2. [ai-cyber-lab](https://github.com/Panacota96/ai-cyber-lab)
+## Services
 
-Desktop-first cyber lab workspace for structured documentation, timelines, exports, and AI-assisted reporting.
+Through Rakvor I work with small and medium-sized businesses in **Colombia** and **France**:
 
-### 3. [Helm-Path](https://github.com/Panacota96/Helm-Path)
+- **Digital forensics**: evidence collection, document, image, email and chat authenticity, expert reports.
+- **Pentesting**: authorized assessments of web applications, networks and infrastructure.
+- **SOC**: monitoring, detection and incident response sized for SMEs.
 
-Local-first CTF flight recorder and writeup generator focused on evidence capture, reproducible reporting, and audit-friendly outputs.
+## About me
 
-## What I Build
+**Roles:** Cybersecurity Analyst · eDiscovery Analyst · Digital Forensics Engineer
 
-- Practical security education experiences for students and technical teams
-- Reproducible CTF, pentest, and reporting workflows
-- Blue-team-minded projects around phishing analysis, Linux operations, and network security
+**Education**
 
-## Currently Exploring
+- Master's in Cybersecurity, ESME, Paris
+- Bachelor's in Electronics, Pontificia Universidad Javeriana, Bogotá
 
-- AI-assisted reporting flows for cyber labs, writeups, and evidence capture
-- More measurable phishing-awareness training for engineering students
-- Repeatable blue-team and CTF workflows across Docker-based lab environments
+**Languages:** English · Spanish · French
 
-## Languages and Education
+### Other projects
 
-### Spoken Languages
-
-<p>
-  <img src="https://img.shields.io/badge/Spanish-%F0%9F%87%A8%F0%9F%87%B4-CE1126?style=for-the-badge" alt="Spanish" />
-  <img src="https://img.shields.io/badge/English-%F0%9F%87%AC%F0%9F%87%A7-1F6FEB?style=for-the-badge" alt="English" />
-  <img src="https://img.shields.io/badge/French-%F0%9F%87%AB%F0%9F%87%B7-0055A4?style=for-the-badge" alt="French" />
-</p>
-
-### Universities
-
-<p>
-  <img src="https://img.shields.io/badge/Pontificia%20Universidad%20Javeriana-%F0%9F%87%A8%F0%9F%87%B4-0F4C81?style=for-the-badge" alt="Pontificia Universidad Javeriana" />
-  <img src="https://img.shields.io/badge/ESME-%F0%9F%87%AB%F0%9F%87%B7-0E8B57?style=for-the-badge" alt="ESME" />
-</p>
-
-## Focus Areas and Toolkit
-
-I work where defensive operations, hands-on training, and reproducible lab workflows overlap.
-
-<p>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-Tooling-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
-  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-Labs-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
-  <a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-Cloud-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" /></a>
-  <a href="https://www.linux.org/"><img src="https://img.shields.io/badge/Linux-Administration-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" /></a>
-  <a href="https://www.wireshark.org/"><img src="https://img.shields.io/badge/Wireshark-Traffic-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" /></a>
-  <a href="https://portswigger.net/burp"><img src="https://img.shields.io/badge/Burp%20Suite-Testing-F47F24?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" /></a>
-</p>
-
-Selected from the public stack visible across my current projects.
-
-<details>
-  <summary><strong>Expand full stack, operating systems, lab environments, and cloud platforms</strong></summary>
-
-  <br />
-
-  ### Languages I Use
-
-  <p>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-    <img src="https://img.shields.io/badge/SQL%20%2F%20SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL and SQLite" />
-    <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
-    <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-    <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
-  </p>
-
-  ### Operating Systems
-
-  <p>
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-    <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge" alt="Kali Linux" />
-    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
-    <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian" />
-    <img src="https://img.shields.io/badge/Parrot%20OS-15AABF?style=for-the-badge" alt="Parrot OS" />
-    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
-  </p>
-
-  ### Lab and Virtualized Environments
-
-  <p>
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-    <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
-    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-    <img src="https://img.shields.io/badge/Exegol-1F2937?style=for-the-badge" alt="Exegol" />
-    <img src="https://img.shields.io/badge/Python%20venv-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python virtual environments" />
-    <img src="https://img.shields.io/badge/DynamoDB%20Local-4053D6?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="DynamoDB Local" />
-  </p>
-
-  ### Cloud Environments
-
-  <p>
-    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
-    <img src="https://img.shields.io/badge/AWS%20Lambda-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Lambda" />
-    <img src="https://img.shields.io/badge/API%20Gateway-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="API Gateway" />
-    <img src="https://img.shields.io/badge/CloudFront-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="CloudFront" />
-    <img src="https://img.shields.io/badge/DynamoDB-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="DynamoDB" />
-    <img src="https://img.shields.io/badge/S3-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Amazon S3" />
-    <img src="https://img.shields.io/badge/SQS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Amazon SQS" />
-    <img src="https://img.shields.io/badge/SES-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Amazon SES" />
-    <img src="https://img.shields.io/badge/EC2-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Amazon EC2" />
-    <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  </p>
-</details>
-
-## Featured Work
-
-### [EnGarde](https://github.com/Panacota96/master-Project-Phishing)
-
-<p>
-  <img src="https://img.shields.io/badge/Security%20Education-0F4C81?style=flat-square" alt="Security Education" />
-  <img src="https://img.shields.io/badge/AWS%20Serverless-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS Serverless" />
-</p>
-
-Serverless phishing-awareness platform for engineering students with quiz flows, guided email analysis, and instructor analytics.
-
-**Why it matters:** turns phishing defense into something hands-on, measurable, and deployable.
-
-### [AI Cyber Lab](https://github.com/Panacota96/ai-cyber-lab)
-
-<p>
-  <img src="https://img.shields.io/badge/Applied%20Research-1A936F?style=flat-square" alt="Applied Research" />
-  <img src="https://img.shields.io/badge/SQLite%20%2B%20Exports-0E7490?style=flat-square" alt="SQLite and Exports" />
-</p>
-
-Desktop-first cyber lab workspace for CTF, lab, and pentest documentation with multiple export paths, timelines, and persistent storage.
-
-**Why it matters:** connects practical lab work with clearer reporting and research outputs.
-
-### [Helm-Path](https://github.com/Panacota96/Helm-Path)
-
-<p>
-  <img src="https://img.shields.io/badge/CTF%20Workflow-1B6CA8?style=flat-square" alt="CTF Workflow" />
-  <img src="https://img.shields.io/badge/Ollama%20Reports-0B3D91?style=flat-square" alt="Ollama Reports" />
-</p>
-
-Local-first CTF flight recorder and writeup generator with Dockerized logging, hashed manifests, an append-only audit chain, and a graph UI.
-
-**Why it matters:** proves a strong focus on reproducible evidence capture and AI-assisted reporting.
-
-## Teaching and Community
-
-- I teach Computer Architecture at Pontificia Universidad Javeriana.
-- I care about making security concepts concrete through labs, walkthroughs, and student-friendly tooling.
-- I maintain writeups, lab notes, and reusable reporting workflows to support both learning and teaching.
-- I am especially interested in projects that improve phishing defense, blue-team readiness, and practical cybersecurity learning.
-
-## Connect
-
-<p>
-  <a href="https://www.linkedin.com/in/ing-dsantiagog/"><img src="https://img.shields.io/badge/LinkedIn-ing--dsantiagog-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
-</p>
-
-## Support
-
-If my projects, labs, or writeups help you, you can support the work here.
-
-<p>
-  <a href="https://buymeacoffee.com/santiagogow"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-santiagogow-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy Me a Coffee" /></a>
-</p>
+- [EnGarde](https://github.com/Panacota96/master-Project-Phishing): serverless phishing-awareness platform for engineering students.
+- [Guild-Scroll](https://github.com/Panacota96/Guild-Scroll): terminal flight recorder for CTFs and authorized pentests with structured reporting.
+- [AI Cyber Lab](https://github.com/Panacota96/ai-cyber-lab): desktop-first cyber-lab workspace for CTF, pentest and AI-assisted reporting.
