@@ -7,7 +7,7 @@
 <p align="center"><strong>Digital forensics · Pentesting · SOC — for SMEs in Colombia and France</strong></p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=6B00FF&center=true&vCenter=true&width=560&lines=Digital+Forensics+Engineer;eDiscovery+Analyst;Cybersecurity+Analyst;Building+Rakvor+DFIR+tools+in+Rust" alt="Digital Forensics Engineer · eDiscovery Analyst · Cybersecurity Analyst · Building Rakvor DFIR tools in Rust" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=1A936F&center=true&vCenter=true&width=560&lines=Digital+Forensics+Engineer;eDiscovery+Analyst;Cybersecurity+Analyst;Building+Rakvor+DFIR+tools+in+Rust" alt="Digital Forensics Engineer · eDiscovery Analyst · Cybersecurity Analyst · Building Rakvor DFIR tools in Rust" />
 </p>
 
 <p align="center">
@@ -17,16 +17,16 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Panacota96/rv-hub/releases/latest"><img src="https://img.shields.io/github/v/release/Panacota96/rv-hub?label=RV%20Hub&style=for-the-badge&color=6B00FF" alt="RV Hub latest release" /></a>
+  <a href="https://github.com/Panacota96/rv-hub/releases/latest"><img src="https://img.shields.io/github/v/release/Panacota96/rv-hub?label=RV%20Hub&style=for-the-badge&color=1A936F" alt="RV Hub latest release" /></a>
   <a href="https://www.linkedin.com/in/ing-dsantiagog/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://buymeacoffee.com/santiagogow"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-santiagogow-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy Me a Coffee" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Panacota96/rv-hub"><img src="https://img.shields.io/badge/RV%20Hub-Front%20door-6B00FF?style=flat-square&logo=github&logoColor=white" alt="RV Hub" /></a>
-  <a href="https://github.com/Panacota96/rv-pdfauth"><img src="https://img.shields.io/badge/RV%20PDFAuth-Documents-6B00FF?style=flat-square&logo=github&logoColor=white" alt="RV PDFAuth" /></a>
-  <a href="https://github.com/Panacota96/rv-mailauth"><img src="https://img.shields.io/badge/RV%20MailAuth-Email-6B00FF?style=flat-square&logo=github&logoColor=white" alt="RV MailAuth" /></a>
-  <a href="https://github.com/Panacota96/rv-report"><img src="https://img.shields.io/badge/RV%20Report-Expert%20reports-6B00FF?style=flat-square&logo=github&logoColor=white" alt="RV Report" /></a>
+  <a href="https://github.com/Panacota96/rv-hub"><img src="https://img.shields.io/badge/RV%20Hub-Front%20door-1A936F?style=flat-square&logo=github&logoColor=white" alt="RV Hub" /></a>
+  <a href="https://github.com/Panacota96/rv-pdfauth"><img src="https://img.shields.io/badge/RV%20PDFAuth-Documents-1A936F?style=flat-square&logo=github&logoColor=white" alt="RV PDFAuth" /></a>
+  <a href="https://github.com/Panacota96/rv-mailauth"><img src="https://img.shields.io/badge/RV%20MailAuth-Email-1A936F?style=flat-square&logo=github&logoColor=white" alt="RV MailAuth" /></a>
+  <a href="https://github.com/Panacota96/rv-report"><img src="https://img.shields.io/badge/RV%20Report-Expert%20reports-1A936F?style=flat-square&logo=github&logoColor=white" alt="RV Report" /></a>
   <a href="https://github.com/Panacota96/rakvor-tool-forge"><img src="https://img.shields.io/badge/Tool%20Forge-Skill-1B6CA8?style=flat-square&logo=github&logoColor=white" alt="rakvor-tool-forge" /></a>
 </p>
 
@@ -170,7 +170,7 @@ Through Rakvor I work with small and medium-sized businesses in **Colombia** and
   <img src="https://img.shields.io/badge/Autopsy-Forensics-374151?style=for-the-badge" alt="Autopsy" />
   <img src="https://img.shields.io/badge/FTK%20Imager-Imaging-4B5563?style=for-the-badge" alt="FTK Imager" />
   <img src="https://img.shields.io/badge/Tableau-Forensic%20imaging-4B5563?style=for-the-badge" alt="Tableau forensic hardware" />
-  <img src="https://img.shields.io/badge/Volatility-Memory%20forensics-5B2A86?style=for-the-badge" alt="Volatility" />
+  <img src="https://img.shields.io/badge/Volatility-Memory%20forensics-0E7C5A?style=for-the-badge" alt="Volatility" />
   <img src="https://img.shields.io/badge/Cellebrite-Mobile-0B6E4F?style=for-the-badge" alt="Cellebrite" />
   <img src="https://img.shields.io/badge/XRY-Mobile%20extraction-0B6E4F?style=for-the-badge" alt="MSAB XRY" />
   <img src="https://img.shields.io/badge/XAMN-Mobile%20analysis-0B6E4F?style=for-the-badge" alt="MSAB XAMN" />
@@ -217,7 +217,7 @@ Through Rakvor I work with small and medium-sized businesses in **Colombia** and
   <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/Terraform-0B6E4F?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
   <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
 </p>
 
@@ -226,18 +226,18 @@ Through Rakvor I work with small and medium-sized businesses in **Colombia** and
 <p>
   <img src="https://img.shields.io/badge/AWS-Cloud-232F3E?style=for-the-badge" alt="AWS" />
   <img src="https://img.shields.io/badge/Lambda-Serverless-FF9900?style=for-the-badge" alt="AWS Lambda" />
-  <img src="https://img.shields.io/badge/API%20Gateway-HTTP%20APIs-A166FF?style=for-the-badge" alt="Amazon API Gateway" />
-  <img src="https://img.shields.io/badge/CloudFront-CDN-8C4FFF?style=for-the-badge" alt="Amazon CloudFront" />
+  <img src="https://img.shields.io/badge/API%20Gateway-HTTP%20APIs-2EA043?style=for-the-badge" alt="Amazon API Gateway" />
+  <img src="https://img.shields.io/badge/CloudFront-CDN-238636?style=for-the-badge" alt="Amazon CloudFront" />
   <img src="https://img.shields.io/badge/DynamoDB-NoSQL-4053D6?style=for-the-badge" alt="Amazon DynamoDB" />
   <img src="https://img.shields.io/badge/S3-Storage-569A31?style=for-the-badge" alt="Amazon S3" />
   <img src="https://img.shields.io/badge/SQS-Queues-FF4F8B?style=for-the-badge" alt="Amazon SQS" />
   <img src="https://img.shields.io/badge/SES-Email-DD344C?style=for-the-badge" alt="Amazon SES" />
   <img src="https://img.shields.io/badge/EventBridge-Scheduling-FF4F8B?style=for-the-badge" alt="Amazon EventBridge" />
-  <img src="https://img.shields.io/badge/ElastiCache-Redis-C925D1?style=for-the-badge" alt="Amazon ElastiCache" />
+  <img src="https://img.shields.io/badge/ElastiCache-Redis-3FB950?style=for-the-badge" alt="Amazon ElastiCache" />
   <img src="https://img.shields.io/badge/CloudWatch-Monitoring-E7157B?style=for-the-badge" alt="Amazon CloudWatch" />
   <img src="https://img.shields.io/badge/IAM-Access-DD344C?style=for-the-badge" alt="AWS IAM" />
   <img src="https://img.shields.io/badge/EC2-Compute-FF9900?style=for-the-badge" alt="Amazon EC2" />
-  <img src="https://img.shields.io/badge/Terraform-IaC-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/Terraform-IaC-0B6E4F?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
