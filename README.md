@@ -15,6 +15,15 @@
 <p align="center">
   <a href="https://github.com/Panacota96/rv-hub/releases/latest"><img src="https://img.shields.io/github/v/release/Panacota96/rv-hub?label=RV%20Hub&style=for-the-badge&color=6B00FF" alt="RV Hub latest release" /></a>
   <a href="https://www.linkedin.com/in/ing-dsantiagog/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://buymeacoffee.com/santiagogow"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-santiagogow-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000" alt="Buy Me a Coffee" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Panacota96/rv-hub"><img src="https://img.shields.io/badge/RV%20Hub-Front%20door-6B00FF?style=flat-square&logo=github&logoColor=white" alt="RV Hub" /></a>
+  <a href="https://github.com/Panacota96/rv-pdfauth"><img src="https://img.shields.io/badge/RV%20PDFAuth-Documents-6B00FF?style=flat-square&logo=github&logoColor=white" alt="RV PDFAuth" /></a>
+  <a href="https://github.com/Panacota96/rv-mailauth"><img src="https://img.shields.io/badge/RV%20MailAuth-Email-6B00FF?style=flat-square&logo=github&logoColor=white" alt="RV MailAuth" /></a>
+  <a href="https://github.com/Panacota96/rv-report"><img src="https://img.shields.io/badge/RV%20Report-Expert%20reports-6B00FF?style=flat-square&logo=github&logoColor=white" alt="RV Report" /></a>
+  <a href="https://github.com/Panacota96/rakvor-tool-forge"><img src="https://img.shields.io/badge/Tool%20Forge-Skill-1B6CA8?style=flat-square&logo=github&logoColor=white" alt="rakvor-tool-forge" /></a>
 </p>
 
 ## The Rakvor DFIR suite
@@ -76,12 +85,118 @@ Through Rakvor I work with small and medium-sized businesses in **Colombia** and
 
 **Roles:** Cybersecurity Analyst · eDiscovery Analyst · Digital Forensics Engineer
 
-**Education**
+### Education
 
-- Master's in Cybersecurity, ESME, Paris
-- Bachelor's in Electronics, Pontificia Universidad Javeriana, Bogotá
+<p>
+  <img src="https://img.shields.io/badge/ESME%20Paris-Master's%20in%20Cybersecurity%20%F0%9F%87%AB%F0%9F%87%B7-0E8B57?style=for-the-badge" alt="ESME Paris, Master's in Cybersecurity" />
+  <img src="https://img.shields.io/badge/Pontificia%20Universidad%20Javeriana-Bachelor's%20in%20Electronics%20%F0%9F%87%A8%F0%9F%87%B4-0F4C81?style=for-the-badge" alt="Pontificia Universidad Javeriana, Bachelor's in Electronics" />
+</p>
 
-**Languages:** English · Spanish · French
+### Spoken languages
+
+<p>
+  <img src="https://img.shields.io/badge/English-%F0%9F%87%AC%F0%9F%87%A7-1F6FEB?style=for-the-badge" alt="English" />
+  <img src="https://img.shields.io/badge/Spanish-%F0%9F%87%A8%F0%9F%87%B4-CE1126?style=for-the-badge" alt="Spanish" />
+  <img src="https://img.shields.io/badge/French-%F0%9F%87%AB%F0%9F%87%B7-0055A4?style=for-the-badge" alt="French" />
+</p>
+
+## Toolkit
+
+### Digital forensics and mobile
+
+<p>
+  <img src="https://img.shields.io/badge/X--Ways%20Forensics-Disk%20analysis-8B1E3F?style=for-the-badge" alt="X-Ways Forensics" />
+  <img src="https://img.shields.io/badge/Magnet%20AXIOM-Forensics-1E3A8A?style=for-the-badge" alt="Magnet AXIOM" />
+  <img src="https://img.shields.io/badge/Autopsy-Forensics-374151?style=for-the-badge" alt="Autopsy" />
+  <img src="https://img.shields.io/badge/FTK%20Imager-Imaging-4B5563?style=for-the-badge" alt="FTK Imager" />
+  <img src="https://img.shields.io/badge/Tableau-Forensic%20imaging-4B5563?style=for-the-badge" alt="Tableau forensic hardware" />
+  <img src="https://img.shields.io/badge/Volatility-Memory%20forensics-5B2A86?style=for-the-badge" alt="Volatility" />
+  <img src="https://img.shields.io/badge/Cellebrite-Mobile-0B6E4F?style=for-the-badge" alt="Cellebrite" />
+  <img src="https://img.shields.io/badge/XRY-Mobile%20extraction-0B6E4F?style=for-the-badge" alt="MSAB XRY" />
+  <img src="https://img.shields.io/badge/XAMN-Mobile%20analysis-0B6E4F?style=for-the-badge" alt="MSAB XAMN" />
+</p>
+
+### eDiscovery
+
+<p>
+  <img src="https://img.shields.io/badge/Relativity%20%2F%20RelativityOne-eDiscovery-1F3A5F?style=for-the-badge" alt="Relativity and RelativityOne" />
+  <img src="https://img.shields.io/badge/Nuix-eDiscovery-1F3A5F?style=for-the-badge" alt="Nuix" />
+  <img src="https://img.shields.io/badge/Reveal-eDiscovery-1F3A5F?style=for-the-badge" alt="Reveal" />
+</p>
+
+### SOC, SIEM and EDR
+
+<p>
+  <img src="https://img.shields.io/badge/Splunk-SIEM-000000?style=for-the-badge&logo=splunk&logoColor=white" alt="Splunk" />
+  <img src="https://img.shields.io/badge/Microsoft%20Sentinel-SIEM-0078D4?style=for-the-badge" alt="Microsoft Sentinel" />
+  <img src="https://img.shields.io/badge/Wazuh-SIEM%20%2F%20XDR-1E6FD9?style=for-the-badge" alt="Wazuh" />
+  <img src="https://img.shields.io/badge/CrowdStrike-EDR-E01F26?style=for-the-badge" alt="CrowdStrike" />
+  <img src="https://img.shields.io/badge/Trellix-EDR-C8102E?style=for-the-badge" alt="Trellix" />
+  <img src="https://img.shields.io/badge/Wireshark-Traffic-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark" />
+</p>
+
+### Pentesting
+
+<p>
+  <img src="https://img.shields.io/badge/Nmap-Recon-4682B4?style=for-the-badge" alt="Nmap" />
+  <img src="https://img.shields.io/badge/Metasploit-Exploitation-2596CD?style=for-the-badge" alt="Metasploit" />
+  <img src="https://img.shields.io/badge/BloodHound-Active%20Directory-A31F34?style=for-the-badge" alt="BloodHound" />
+  <img src="https://img.shields.io/badge/Burp%20Suite-Web%20testing-F47F24?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
+  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux" />
+  <img src="https://img.shields.io/badge/Exegol-1F2937?style=for-the-badge" alt="Exegol" />
+</p>
+
+### Programming languages
+
+<p>
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/SQL%20%2F%20SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQL and SQLite" />
+  <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
+</p>
+
+<details>
+  <summary><strong>Operating systems, lab environments and cloud</strong></summary>
+
+  <br />
+
+  **Operating systems**
+
+  <p>
+    <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+    <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+    <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian" />
+    <img src="https://img.shields.io/badge/Parrot%20OS-15AABF?style=for-the-badge" alt="Parrot OS" />
+  </p>
+
+  **Lab and virtualized environments**
+
+  <p>
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/Docker%20Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
+    <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  </p>
+
+  **Cloud and CI**
+
+  <p>
+    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
+    <img src="https://img.shields.io/badge/AWS%20Lambda-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Lambda" />
+    <img src="https://img.shields.io/badge/API%20Gateway-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="API Gateway" />
+    <img src="https://img.shields.io/badge/CloudFront-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="CloudFront" />
+    <img src="https://img.shields.io/badge/DynamoDB-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="DynamoDB" />
+    <img src="https://img.shields.io/badge/S3-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Amazon S3" />
+    <img src="https://img.shields.io/badge/EC2-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Amazon EC2" />
+    <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  </p>
+</details>
 
 ### Other projects
 
