@@ -7,6 +7,10 @@
 <p align="center"><strong>Digital forensics · Pentesting · SOC — for SMEs in Colombia and France</strong></p>
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=6B00FF&center=true&vCenter=true&width=560&lines=Digital+Forensics+Engineer;eDiscovery+Analyst;Cybersecurity+Analyst;Building+Rakvor+DFIR+tools+in+Rust" alt="Digital Forensics Engineer · eDiscovery Analyst · Cybersecurity Analyst · Building Rakvor DFIR tools in Rust" />
+</p>
+
+<p align="center">
   I build <strong>Rakvor</strong>, a suite of digital-forensics tools written in Rust for examiners who have to
   defend their findings in court. Every tool reports <em>signals, not verdicts</em>, and keeps a tamper-evident record of
   everything it did.
@@ -27,6 +31,10 @@
 </p>
 
 ## The Rakvor DFIR suite
+
+<p align="center">
+  <a href="https://github.com/Panacota96/rv-hub"><img src="https://raw.githubusercontent.com/Panacota96/rv-hub/main/assets/brand/rv-mark.png" width="88" alt="Rakvor RV logo" /></a>
+</p>
 
 Start with **[RV Hub](https://github.com/Panacota96/rv-hub)**: the one window an examiner opens first. It finds the
 installed tools, checks their signatures, launches them on a case folder, shows the case at a glance and verifies the
@@ -56,6 +64,43 @@ flowchart LR
     HUB(["RV Hub<br/>launch · dashboard · verify case"]) -.-> H & A & TL & R
 ```
 
+### See them working
+
+All screenshots show synthetic sample evidence shipped with each tool.
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/Panacota96/rv-hub"><img src="https://raw.githubusercontent.com/Panacota96/rv-hub/main/docs/images/hub-tools.png" alt="RV Hub: installed tools with their signature status" /></a>
+      <br /><sub><b>RV Hub</b> · installed tools, signature checked</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/Panacota96/rv-pdfauth"><img src="https://raw.githubusercontent.com/Panacota96/rv-pdfauth/main/docs/images/gui-revision-viewer.png" alt="RV PDFAuth: revision 1 vs 2 of a synthetic invoice" /></a>
+      <br /><sub><b>RV PDFAuth</b> · revision viewer, changed amount highlighted</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/Panacota96/rv-imgauth"><img src="https://raw.githubusercontent.com/Panacota96/rv-imgauth/main/docs/img/viewer.png" alt="RV ImgAuth: copy-move overlay on a synthetic photo" /></a>
+      <br /><sub><b>RV ImgAuth</b> · copy-move overlay</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/Panacota96/rv-mailauth"><img src="https://raw.githubusercontent.com/Panacota96/rv-mailauth/main/docs/images/gui-message.png" alt="RV MailAuth: message view" /></a>
+      <br /><sub><b>RV MailAuth</b> · message signals</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://github.com/Panacota96/rv-timeline"><img src="https://raw.githubusercontent.com/Panacota96/rv-timeline/main/docs/images/gui-timeline.png" alt="RV Timeline: case super-timeline" /></a>
+      <br /><sub><b>RV Timeline</b> · case super-timeline</sub>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/Panacota96/rv-report"><img src="https://raw.githubusercontent.com/Panacota96/rv-report/main/docs/images/gui-main.png" alt="RV Report: expert report with section preview" /></a>
+      <br /><sub><b>RV Report</b> · expert report preview</sub>
+    </td>
+  </tr>
+</table>
+
 ## How they are built
 
 - **Rust**, Windows 10/11, a command line and a desktop app for every tool.
@@ -66,6 +111,17 @@ flowchart LR
 - **Three languages**: interface and reports in English, Spanish and French, with Colombian and French report structures.
 - **Independent QA harness**: the signed release executables are re-tested from outside the repositories, per tool and across the whole case workflow.
 - **Source-available, non-commercial**: the code is published for audit under the PolyForm Noncommercial 1.0.0 licence.
+
+```mermaid
+flowchart LR
+    E[/"Evidence"/] --> RUN["Tool run<br/>read-only, isolated worker"]
+    RUN --> LOG[("Audit log<br/>each entry hashes the previous one")]
+    LOG --> TSA["RFC 3161 timestamp<br/>TSA-signed"]
+    RUN --> OUT[["Reports<br/>shows / does not prove"]]
+    OUT -. "SHA-256 recorded" .-> LOG
+    TSA --> V{"verify-log<br/>anyone can re-check"}
+    LOG --> V
+```
 
 ### rakvor-tool-forge
 
@@ -101,6 +157,10 @@ Through Rakvor I work with small and medium-sized businesses in **Colombia** and
 </p>
 
 ## Toolkit
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,py,js,ts,bash,sqlite,aws,docker,kubernetes,terraform,githubactions,linux,ubuntu,debian,kali,windows,wireshark&perline=9" alt="Rust, Python, JavaScript, TypeScript, Bash, SQLite, AWS, Docker, Kubernetes, Terraform, GitHub Actions, Linux, Ubuntu, Debian, Kali, Windows, Wireshark" />
+</p>
 
 ### Digital forensics and mobile
 
@@ -161,8 +221,44 @@ Through Rakvor I work with small and medium-sized businesses in **Colombia** and
   <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white" alt="YAML" />
 </p>
 
+### Cloud: AWS
+
+<p>
+  <img src="https://img.shields.io/badge/AWS-Cloud-232F3E?style=for-the-badge" alt="AWS" />
+  <img src="https://img.shields.io/badge/Lambda-Serverless-FF9900?style=for-the-badge" alt="AWS Lambda" />
+  <img src="https://img.shields.io/badge/API%20Gateway-HTTP%20APIs-A166FF?style=for-the-badge" alt="Amazon API Gateway" />
+  <img src="https://img.shields.io/badge/CloudFront-CDN-8C4FFF?style=for-the-badge" alt="Amazon CloudFront" />
+  <img src="https://img.shields.io/badge/DynamoDB-NoSQL-4053D6?style=for-the-badge" alt="Amazon DynamoDB" />
+  <img src="https://img.shields.io/badge/S3-Storage-569A31?style=for-the-badge" alt="Amazon S3" />
+  <img src="https://img.shields.io/badge/SQS-Queues-FF4F8B?style=for-the-badge" alt="Amazon SQS" />
+  <img src="https://img.shields.io/badge/SES-Email-DD344C?style=for-the-badge" alt="Amazon SES" />
+  <img src="https://img.shields.io/badge/EventBridge-Scheduling-FF4F8B?style=for-the-badge" alt="Amazon EventBridge" />
+  <img src="https://img.shields.io/badge/ElastiCache-Redis-C925D1?style=for-the-badge" alt="Amazon ElastiCache" />
+  <img src="https://img.shields.io/badge/CloudWatch-Monitoring-E7157B?style=for-the-badge" alt="Amazon CloudWatch" />
+  <img src="https://img.shields.io/badge/IAM-Access-DD344C?style=for-the-badge" alt="AWS IAM" />
+  <img src="https://img.shields.io/badge/EC2-Compute-FF9900?style=for-the-badge" alt="Amazon EC2" />
+  <img src="https://img.shields.io/badge/Terraform-IaC-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
+
+[EnGarde](https://github.com/Panacota96/master-Project-Phishing), my phishing-awareness platform, runs serverless on AWS and is deployed with Terraform:
+
+```mermaid
+flowchart LR
+    U(["Students and instructors"]) --> CF["CloudFront"]
+    CF --> APIGW["API Gateway v2"]
+    APIGW --> APP["Lambda<br/>Flask app"]
+    APP --> DDB[("DynamoDB<br/>9 tables")]
+    APP --> S3[("S3<br/>emails · reports")]
+    APP --> Q["SQS"]
+    EB["EventBridge<br/>schedules"] -.-> Q
+    Q --> W["Lambda workers<br/>campaign mailer · registration"]
+    W --> SES["SES<br/>email"]
+    W --> DDB
+```
+
 <details>
-  <summary><strong>Operating systems, lab environments and cloud</strong></summary>
+  <summary><strong>Operating systems and lab environments</strong></summary>
 
   <br />
 
@@ -184,18 +280,6 @@ Through Rakvor I work with small and medium-sized businesses in **Colombia** and
     <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   </p>
 
-  **Cloud and CI**
-
-  <p>
-    <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS" />
-    <img src="https://img.shields.io/badge/AWS%20Lambda-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Lambda" />
-    <img src="https://img.shields.io/badge/API%20Gateway-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="API Gateway" />
-    <img src="https://img.shields.io/badge/CloudFront-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="CloudFront" />
-    <img src="https://img.shields.io/badge/DynamoDB-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="DynamoDB" />
-    <img src="https://img.shields.io/badge/S3-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Amazon S3" />
-    <img src="https://img.shields.io/badge/EC2-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="Amazon EC2" />
-    <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  </p>
 </details>
 
 ### Other projects
